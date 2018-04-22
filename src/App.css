@@ -1,0 +1,63 @@
+body {
+  background: url("http://4vector.com/i/free-vector-classical-floral-pattern-04-vector_022902_Classical%20Flower%20Patterns4.jpg");
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.Main > *, .App-header, footer {
+  margin: 8px;
+  padding: 5px;
+  border-radius: 7px;
+  box-shadow: 4px 3px 8px #000108;
+}
+
+
+/* Main Container */
+
+.Main {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  width: 100%;
+}
+
+.left-nav {
+  background-color: #444;
+  padding: 20px;
+  color: white;
+  flex-basis: 20%;
+}
+
+.Center {
+  background-color: #555;
+  padding: 20px;
+  color: white;
+  flex-basis: 60%;
+}
+
+.Aside {
+ background-color: #666;
+  padding: 20px;
+  color: white;
+  flex-basis: 20%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
