@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class Left extends Component {
+class Left extends Component {
 	render() {
 	  return (
        <div className="left-nav">
@@ -9,3 +9,5 @@ export class Left extends Component {
 	  )
 	}
 }
+
+export default Left;
