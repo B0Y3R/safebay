@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../../Styles/left-nav.css';
 
 class Left extends Component {
 	render() {

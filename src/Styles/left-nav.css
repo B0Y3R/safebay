@@ -1,0 +1,6 @@
+.left-nav {
+  background-color: #444;
+  padding: 20px;
+  color: white;
+  flex-basis: 20%;
+}

@@ -7,11 +7,11 @@ import '../../Styles/Main.css';
 class Main extends Component {
 	render() {
 		return (
-			  <div className="Main">
-          <Left />
-          <Center />
-          <Aside />
-        </div>
+			<div className="Main">
+			  <Left />
+			  <Center />
+			  <Aside />
+			</div>
 			)
 	}
 }

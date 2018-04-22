@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../../Styles/Center.css';
 
 class Center extends Component {
 	render() {
